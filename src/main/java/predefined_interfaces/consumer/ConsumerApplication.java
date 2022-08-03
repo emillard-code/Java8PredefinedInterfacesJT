@@ -16,9 +16,9 @@ public class ConsumerApplication {
 
         // Using Consumer with Java 8 Streams
 
-        List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
 
-        list1.stream().forEach(consumer);
+        list.stream().forEach(consumer);
 
     }
 
