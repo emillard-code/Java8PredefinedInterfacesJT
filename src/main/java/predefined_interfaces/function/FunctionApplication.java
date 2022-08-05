@@ -11,7 +11,7 @@ public class FunctionApplication {
 
         // Basic Function implementation
 
-        Function<String, Integer> function = s -> s.length();
+        Function<String, Integer> function = i -> i.length();
 
         System.out.println(function.apply("Hello World!"));
 

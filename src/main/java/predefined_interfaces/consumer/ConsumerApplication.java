@@ -10,7 +10,7 @@ public class ConsumerApplication {
 
         // Basic Consumer implementation
 
-        Consumer<Integer> consumer = t -> System.out.println("Printing: " + t);
+        Consumer<Integer> consumer = i -> System.out.println("Printing: " + i);
 
         consumer.accept(10);
 
