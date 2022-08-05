@@ -18,7 +18,7 @@ public class PredicateApplication {
 
         List<Integer> list = Arrays.asList(20, 40, 60, 80, 100);
 
-        list.stream().filter(i -> (i > -100) && (i < 100)).forEach(i -> System.out.println("2 Digit Number: " + i));
+        list.stream().filter(predicate).forEach(i -> System.out.println("2 Digit Number: " + i));
 
     }
 
